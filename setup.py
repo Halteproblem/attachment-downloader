@@ -13,6 +13,6 @@ setup(
     install_requires=["jinja2", "imbox"],
     entry_points = {
     "console_scripts": [
-        "attachment-downloader=attachment-downloader.bin.attachment-downloader",
+        "attachment-downloader=attachment-downloader.__init__:attachment-downloader",
     ]}
 )
