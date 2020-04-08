@@ -1,1 +1,1 @@
-from attachment_downloader import main
+import attachment_downloader
