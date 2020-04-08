@@ -11,6 +11,6 @@ setup(
     packages=['attachment_downloader'],
     install_requires=["jinja2", "imbox"],
     entry_points = {
-    "console_scripts": [ "attachment-downloader=bin.attachment_downloader:main"]
+    "console_scripts": [ "attachment-downloader=attachment_downloader:attachment_downloader"]
     }
 )
