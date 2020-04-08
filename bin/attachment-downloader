@@ -9,8 +9,8 @@ from optparse import OptionParser
 
 from jinja2 import Template
 
-if __name__ == '__main__':
 
+def main():
     class InfoFilter(logging.Filter):
         def filter(self, rec):
             return rec.levelno in (logging.DEBUG, logging.INFO)
@@ -108,3 +108,6 @@ if __name__ == '__main__':
 
     logging.info("Done")
 
+if __name__ == '__main__':
+
+    main()
